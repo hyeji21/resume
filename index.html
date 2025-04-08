@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTHOME</title>
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color:#ebecee;
+        }
+        #wrap {
+            width: 1260px;
+            margin: 0 auto;
+            padding: 40px;
+            color: #555;
+        }
+        header {
+            text-align: center;
+        }
+        header>h1 {
+            font-size: 48px;
+            font-weight: bold;
+            box-shadow: 0 0 2px rgba(0,0,0,0.4);
+            text-shadow: 0 0 10px rgba(0,0,0,0.4);
+            color: #b02041;
+        }
+        header>div>p.cap {
+            color: #b02041;
+            font-size: 12px;
+            line-height: 0.9;
+        }
+        header>div>h2 {
+            font-size: 20px;
+        }
+        header>div>p>img {
+            padding: 20px;
+        }
+        main {
+            text-align-last: left;
+        }
+        section>h2 {
+            color: #b02041;
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+        section>table {
+            padding: 20px 0 40px 0;
+            line-height: 2rem;
+        }
+        th {
+            padding-right: 20px;
+        }
+        .abil>ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+        .abil>ul>li>img {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .hobby>ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+        .hobby>ul>li>img {
+            width: 175px;
+            padding-bottom: 40px;
+        }
+        footer {
+            color: #b02041;
+            text-align: center;
+            padding-top: 20px;
+        }
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo">
+                이젠컴
+            </h1>
+            <div>
+                <p class="cap">
+                    EzenC
+                </p>
+                <h2 class="text">
+                    &quot;지금 아니면 어디에도 없을 이젠컴.&quot;
+                </h2>
+                <p class="face">
+                    <img src="./images/resume.png" alt="face">
+                </p>
+            </div>
+        </header>
+        <main>
+            <section class="info">
+                <h2>상세정보</h2>
+                <table>
+                    <tr>
+                        <th>이  름</th>
+                        <td>김명철</td>
+                    </tr>
+                    <tr>
+                        <th>생  일</th>
+                        <td>2000-01-01</td>
+                    </tr>
+                    <tr>
+                        <th>핸드폰</th>
+                        <td>010 1234 5678</td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td>indopop@naver.com</td>
+                    </tr>
+                    <tr>
+                        <th>블로그</th>
+                        <td>ezen.blog.me</td>
+                    </tr>
+                    <tr>
+                        <th>주  소</th>
+                        <td>서울시 성동구 성수동</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="capa">
+                <h2>자격정보</h2>
+                <table>
+                    <tr>
+                        <th>DESIGN</th>
+                        <td>GTQ 포토샵 2급</td>
+                    </tr>
+                    <tr>
+                        <th>O.A</th>
+                        <td>ITQ 엑셀 A</td>
+                    </tr>
+                    <tr>
+                        <th>O.A</th>
+                        <td>ITQ 엑셀 A</td>
+                    </tr>
+                    <tr>
+                        <th>O.A</th>
+                        <td>ITQ 엑셀 A</td>
+                    </tr>
+                    <tr>
+                        <th>WEB</th>
+                        <td>웹디자인 기능사</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="edu">
+                <h2>학력사항</h2>
+                <table>
+                    <tr>
+                        <th>2010 ~ 2014</th>
+                        <td>한국대학교 컴퓨터공학과 졸업</td>
+                    </tr>
+                    <tr>
+                        <th>2016 ~ 2017</th>
+                        <td>NCS UXNI 디지털디자인 과정 수료</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="abil">
+                <h2>능력치</h2>
+                <ul>
+                    <li><img src="./images/ps_ability.png" alt="ps"></li>
+                    <li><img src="./images/ai_ability.png" alt="ai"></li>
+                    <li><img src="./images/id_ability.png" alt="id"></li>
+                    <li><img src="./images/pr_ability.png" alt="pr"></li>
+                </ul>
+            </section>
+            <section class="hobby">
+                <h2>취미활동</h2>
+                <ul>
+                    <li><img src="./images/hobby_01.png" alt="photo"></li>
+                    <li><img src="./images/hobby_02.png" alt="cooking"></li>
+                    <li><img src="./images/hobby_03.png" alt="bowling"></li>
+                    <li><img src="./images/hobby_04.png" alt="movie"></li>
+                    <li><img src="./images/hobby_05.png" alt="handwriting"></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Copyright All Rights Reserved.,<span>MCSSAM</span>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
